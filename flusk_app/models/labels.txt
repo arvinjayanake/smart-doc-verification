@@ -1,0 +1,4 @@
+driving_license
+new_nic
+old_nic
+passport

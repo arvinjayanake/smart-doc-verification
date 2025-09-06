@@ -71,7 +71,7 @@ def check_is_passport(text: str) -> bool:
 def get_driving_licence_no(text: str):
     up = text.upper()
     # B + 7 digits, spaces allowed
-    m = re.search(r'B\s*\d(?:\s*\d){7}', up)
+    m = re.search(r'B\s*\d(?:\s*\d){6}', up)
     if not m:
         return None
     # Remove any spaces inside the matched token
